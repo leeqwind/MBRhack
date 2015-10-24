@@ -1,0 +1,2 @@
+"F:\MBRhack\res\JWasm211bw\jwasm.exe" "F:\MBRhack\res\win7_x64.asm"
+doslnk "F:\MBRhack\res\win7_x64.obj" /tiny

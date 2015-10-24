@@ -1,0 +1,17 @@
+﻿生成启动时间为 2015/10/24 16:59:02。
+     1>项目“F:\MBRhack\MBRhack.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MBRhack.cpp
+         MBRhack.cpp
+     1>MBRhack.cpp(67): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“DWORD”的值不能等于给定的常量
+     1>MBRhack.cpp(80): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“DWORD”的值不能等于给定的常量
+     1>MBRhack.cpp(93): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“DWORD”的值不能等于给定的常量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MBRhack\Release\MBRhack.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\MBRhack\Release\MBRhack.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MBRhack\Release\MBRhack.lib" /MACHINE:X86 /SAFESEH Release\MBRhack.obj
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/OPT:ICF”规范)
+         MBRhack.vcxproj -> F:\MBRhack\Release\MBRhack.exe
+     1>已完成生成项目“F:\MBRhack\MBRhack.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.88

